@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutorFinder.co.za</title>
+
+
+
+
+    
+    
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+   
+
+
+    <link rel="stylesheet" href="/index/styles.css">
+</head>
+<body>
+
+
+
+    <header class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="./assets/logo final.png" width="125px" alt="" srcset="">
+        </div>
+        <nav >
+            <ul id="MenuItems">
+                <li><a href="/index/index.html">Home</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="/index/findtutors.html">Find Tutor</a></li>
+                <li><a href="/login.html">Be A Tutor</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="/login.html">Account</a></li>
+
+            </ul>
+        </nav>
+        <img src="./assets/shopping-bag.png" alt="cart png" width="30px" height="30px" srcset="">
+        <img src="./assets/icons8-menu-100.png" alt="menu png" srcset="" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+    
+
+   
+
+    <div class="row">
+        <div class="col-2">
+            <h1>Tutor Profile</h1>
+
+        </div>
+        <div class="col-2">
+            <img src="./assets/online-courses-tutorials.png" alt="" srcset="">
+
+        </div>
+    </div>
+    </div>
+    </header> 
+
+    <!-------------tutor profile -------->
+
+
+<div class="tutor-profile">
+    <div class="row">
+        <div class="col-2">
+            <img src="./assets/cat (1).jpg" alt="" srcset="" width="100%">
+        </div>
+        <div class="col-2">
+            <p class="grading">Primary School, High School & Tertiary Tutor</p>
+            <h1>Siphelele Mbhanguta</h1>
+            <h4>Subjects Offered</h4>
+            <p>Pick The Subjects You Need</p>
+            <select name="" id="">
+                <option value="">Select Subjects</option>
+                <option value="">Mathematics</option>
+                <option value="">Physical Science</option>
+                <option value="">Statistics</option>
+            </select>
+
+          
+            <h4>R250 Per Session</h4>
+            <p>Pick The Number of Sessions You Need In A Month</p> <br>
+            <input type="number" value="1" name="" id="" placeholder="Number of Sessions">
+
+            <h4>Type of Session</h4>
+            <p>Pick Between A Face-2-Face or Online Session</p>
+            <select name="" id="">
+                <option value="">Select Type of Session</option>
+                <option value="">Fae-to-face</option>
+                <option value="">Online Session</option>
+            </select>
+
+            <a href="" class="button">Book Tutor</a>
+
+            <h3>Tutor Bio</h3> <br>
+            <p>A dedicated mathematics tutor with over 3 years of experience helping students from primary school to university level. I hold a Master's degree in Mathematics from the University of Pretoria and am passionate about making complex concepts easy to understand. Whether you're struggling with algebra, calculus, or 
+                preparing for exams, I'm here to help you achieve your academic goals and build confidence in your math skills. Let's tackle those math challenges together!</p>
+        </div>
+
+    </div>
+</div>
+
+
+ 
+
+    <!--------------FOOTER---------------->
+
+    <section class="contact" id="contact">
+
+        <div class="main-contact">
+            <div class="contact-content">
+                <ul>
+                    <li><a href="#"></a>Be A Tutor</li>
+                    <li><a href="#"></a>Find A Tutor</li>
+                    <li><a href="#"></a>Explore</li>
+                    <li><a href="#"></a>About Us</li>
+                    <li><a href="#"></a>Get In Touch</li>
+                   
+                   
+                </ul>
+            </div>
+
+
+            <div class="contact-content">
+                <ul>
+                   
+                    <li><a href="#"></a>Services</li>
+                    <li><a href="#"></a>Whatsapp</li>
+                    <li><a href="#"></a>Facebook</li>
+                    <li><a href="#"></a>Instagram</li>
+                    
+                </ul>
+            </div>
+
+            <div class="contact-content">
+                <ul>
+                    <li><a href="#"></a>Monday - Friday: 9:00am - 4:30pm</li>
+                    <li><a href="#"></a>Saturday: 9:00am - 2:00pm</li>
+                    <li><a href="#"></a>Sunday: Closed</li>
+                
+                </ul>
+            </div>
+           
+        </div>
+
+        <p>Designed by Mainhost Group - Copyright(2024).</p>
+
+    </section>
+
+    
+ <!--------------js script---------------->
+
+ <script>
+
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+
+             {
+            MenuItems.style.maxHeight = "200px";
+            }
+
+        else {
+            MenuItems.style.maxHeight = "0px";
+        } 
+    }
+
+</script>
+
+</body>
+</html>

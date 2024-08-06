@@ -1,0 +1,1411 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #fff;
+}
+
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+
+}
+
+p {
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0 ;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+
+.button {
+    display: inline-block;
+    background: #555;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+
+}
+
+.header {
+    background: radial-gradient(#fff, #fffcce);
+}
+
+.header .row {
+    margin-top: 50px;
+}
+
+.button:hover {
+    background: #f7ce38;
+    transition: .5s;
+}
+
+.categories {
+    margin: 70px 0;
+
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+ 
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+/*add verified icon */
+
+
+.col-4 img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: black;
+    font-weight:bold;
+
+}
+
+.col-4 p {
+    font-size: 14px;
+
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+    transition: .5s;
+
+}
+
+.offer {
+    background: radial-gradient(#fff, #fffcce);
+    margin-top: 0px;
+    padding: 30px 0;
+    
+
+}
+
+.col-2 .offer-img {
+    padding: 30px;
+}
+
+small {
+    color: #ff523b;
+}
+
+
+.testimonials {
+    padding-top: 100px;
+    background-color: #fff;
+    
+}
+
+.testimonials .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.testimonials .col-3:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+}
+
+
+
+.testimonials .col-3 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+
+.col-3 p {
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonials .col-3 h3 {
+    font-weight: 600;
+    color: #555;
+
+}
+
+
+.contact {
+
+    padding: 60px 13%;
+    margin-top: 100px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    background: #f7ce38;
+}
+
+
+.contact p {
+    line-height: 1px solid #fff;
+}
+
+.main-contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, auto));
+}
+
+.contact-content li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    list-style-type: none;
+
+}
+
+.contact-content a {
+    font-size: 16px;
+    color: var(--text-colour);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+
+footer {
+
+    text-align: center;
+    border-top: 1.5px solid var(--second-colour);
+    padding: 20px 0;
+    
+}
+
+.contact p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*---------- universities and colleges --------------- */
+
+
+.universities {
+    margin: 100px auto;
+    background-color: #fff;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover {
+    filter: grayscale(0%);
+    transition: .7s;
+}
+
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+ 
+    
+}
+
+
+
+
+
+/* ----------- Find A Tutor Page ------------ */
+
+
+
+
+.small-container select {
+    justify-content: space-between;
+    margin: 10px auto 50px;
+   
+    
+}
+
+select {
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+
+
+
+/*---------- tutor profile --------------- */
+
+.tutor-profile {
+   
+    margin-top: 80px;
+   
+}
+.tutor-profile .grading {
+    color: #ff523b;
+}
+
+.tutor-profile img {
+
+    width: 70%;
+}
+
+.col-2 img {
+    padding: 0;
+}
+
+.col-2 {
+    max-width: 500px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    padding: 10px;
+}
+
+.tutor-profile h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tutor-profile select {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.tutor-profile input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+/* ----------- media query for menu bar------------ */
+
+
+@media only screen and (max-width: 800px) {
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #f7ce38;
+        width: 100%;
+        margin-top: 8px;
+        overflow: hidden;
+        transition: max-height .5s;
+       
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 5px;
+        text-align: end;
+        
+        
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+    
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+/* ----------- registration page------
+
+
+.container1 {
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+    height: 623px;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    background: #fff;
+}
+
+.loginlink {
+    background-color: #f7ce38;
+    background-image: url();
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    width: 30%;
+    padding: 3%;
+}
+
+.signupcontainer {
+    width: 70%;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo1 {
+    font-weight: 600;
+    color: #fff;
+}
+
+.side-big-heading {
+    font-weight: 800;
+    color: #fff;
+    font-size: 1.7rem;
+    margin: 46% 0 5%;
+}
+
+.primarytext {
+    color: #FFF;
+    font-weight: 500;
+    text-align: center;
+}
+
+a.loginbutton {
+    text-decoration: none;
+    color: #fff;
+    width: 76%;
+    font-weight: 500;
+    display: inline-block;
+    margin: 7% 15%;
+    text-align: center;
+    border: 2px solid #eff0ff;
+    border-radius: 24px;
+    padding: 3% 0;
+}
+
+a.loginbutton:hover {
+    color: #f7ce38;
+    background-color: #fff;
+    transition: .7s;
+}
+
+.bigheading {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #696cff;
+
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia a {
+    color: #1a1d86;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #e0e3e2;
+    margin: 12%;
+    padding: 33%;
+}
+
+.progressbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 0;
+    width: 70%;
+}
+
+.progressbar .stage {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.progressbar .tooltip {
+    color: #1a1d86;
+    font-weight: 600;
+
+}
+
+.stagemo {
+    margin: 6% 0;
+    padding: 2% 7%;
+    border-radius: 50%;
+    background-color: #f5f5f9;
+
+}
+
+
+.buttoncontainer {
+    display: flex;
+    align-items: center;
+    margin: 4% 0;
+
+}
+
+.textfields {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 0 2%;
+}
+
+.buttoncontainer {
+    display: flex;
+    align-items: center;
+    margin: 4% 0;
+
+}
+
+
+.textfields {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 2%;
+    margin: 0 2%;
+    width: 46%;
+    border-radius: 4px;
+    color: #84848d;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: inherit;
+    width: 200%;
+    margin-left: 4%;
+    font-size: 1rem;
+}
+
+.signupform {
+    width: 100%;
+    padding: 0 3%;
+}
+
+::-webkit-datetime-edit-month-field,
+::-webkit-datetime-edit-day-field,
+::-webkit-datetime-edit-year-field,input::placeholder{
+    background-color: #ccc;
+    color: #848484;
+}
+
+input[type="date"]::-webkit-calender-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background-image: ;
+    height: 20px;
+    width: 20px;
+
+}
+
+.textfields.fname::after {
+    content: 'first name';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -210px;
+    width: 334px;
+    color: #696cff;
+    top: -33px;
+}
+
+.textfields.lname::after {
+    content: 'last name';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -210px;
+    width: 302px;
+    color: #696cff;
+    top: -33px;
+}
+
+.textfields.dob::after {
+    content: 'date of birth';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -205px;
+    width: 342px;
+    color: #696cff;
+    top: -33px;
+}
+
+.genderselection {
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    width: 100%;
+}
+
+.fieldheading {
+    color: #696cff;
+    width: 20%;
+}
+
+.genderselection label {
+    margin: 0 2%;
+    display: flex;
+    align-items: center;
+    color: #84848d;
+    width: 20%;
+}
+
+
+input[type='radio']{
+    accent-color: #695cff;
+    margin-right: 6%;
+}
+
+.paginationbtn {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+    padding: 0 4%;
+
+}
+
+.nextpage, .previouspage {
+    background-color: #8789ff;
+    color: #fff;
+    width: 45%;
+    cursor: pointer;
+    padding: 2%;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+
+}
+
+
+.nextpage, .previouspage:hover {
+    background-color: #695cff;
+}
+
+.textfields.phone::after {
+    content: 'Phone Number';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -210px;
+    width: 302px;
+    color: #695cff;
+    top: -33px;
+
+}
+
+
+.textfields.email::after {
+    content: 'email ID';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -187px;
+    width: 383px;
+    color: #695cff;
+    top: -33px;
+
+}
+
+.textfields.password::after {
+    content: 'Enter Password';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -187px;
+    width: 352px;
+    color: #695cff;
+    top: -33px;
+
+}
+
+.textfields.confirmpassword::after {
+    content: 'Confirm Password';
+    background-color: #fff;
+    position: relative;
+    padding: 0 4%;
+    left: -187px;
+    width: 452px;
+    color: #695cff;
+    top: -33px;
+
+}
+
+.tccontainer input {
+    width: 4%;
+    margin-left: 4%;
+    accent-color: #696cff;
+}
+
+.tc a {
+    text-decoration: none;
+    color: #695cff;
+
+}
+
+label.tc {
+    margin-left: 4%;
+}
+
+
+.loginformcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.loginformcontent .textfields {
+    margin: 3% 2%;
+    width: 70%;
+    padding: 3%;
+
+}
+
+.loginformcontent .textfields.email::after {
+    left: -323px;
+}
+
+.loginformcontent .textfields.password::after{
+
+    left: -294px;
+}
+
+------ */
+
+
+
+/* ----------- Sign In and Sign Up Page------
+
+
+.containerform {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    overflow: ;
+
+}
+
+.containerform::before {
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #f7ce38, #ff523b);
+    top: 90%;
+    right: 48%;
+    transform: translateY(-50%);
+    z-index: 6;
+    transition: .9s ease-in-out;
+}
+
+
+.forms-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 0 5rem;
+    overflow: hidden;
+}
+
+.formtitle {
+    font-size: 2.2rem;
+    color: #444;
+    margin-bottom: 10px;
+
+}
+
+
+.input-fields {
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 .4rem;
+}
+
+
+.input-fields box-icon {
+    text-align: center;
+    line-height: 65px;
+    color: #acacac;
+    font-size: 1.1rem;
+    margin-left: 15px;
+    
+
+}
+
+.input-fields input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+
+
+}
+
+
+.input-fields input ::placeholder {
+    color: #f7ce38;
+    font-weight: 500;
+}
+
+.btnsolid {
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #f7ce38;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+}
+
+
+.socialtexts {
+    padding: .7rem 0;
+    font-size: 1.2rem;
+
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialbtn {
+    height: 46px;
+    width: 46px;
+    border: 1px solid #333;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.socialbtn:hover {
+    background-color: #f7ce38;
+    border-color: #fff;
+}
+
+
+fieldset {
+    width: 360px;
+    padding: 10px;
+    border-radius: 30px;
+   
+}
+
+fieldset legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+fieldset p {
+    text-align: center;
+}
+
+fieldset input {
+    margin-top: 10px;
+}
+
+.qualifications {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.qualifications input {
+    margin-top: 10px;
+}
+
+.signup-signin {
+
+    position: absolute;
+    top: 95%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 5;
+
+}
+
+.signin-form {
+
+    z-index: 2;
+}
+
+.signup-form {
+    z-index: 1;
+    opacity: 0;
+}
+
+
+------ */
+/* ----------- signup signin panels------
+.panelscontainer {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    text-align: center;
+    z-index: 7;
+}
+
+.leftpanel {
+    pointer-events: all;
+    padding: 3rem 17% 2rem 12%;
+
+}
+
+.rightpanel {
+    pointer-events: none;
+    padding: 3rem 12% 2rem 17%;
+}
+
+
+.panel .content1 {
+    color: #fff;
+
+}
+
+.panel h3 {
+    font-weight: 600;
+    line-height: 1;
+    font-size: 1.5rem;
+
+}
+
+
+.panel p {
+    font-size: 0.95rem;
+    padding: 0.7rem 0;
+
+}
+
+.simage {
+    width: 100%;
+
+}
+
+.btnsolid.transparent {
+
+    margin: 0;
+    background: none;
+    border: 2px solid #f0f0f0;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
+
+}
+
+.rightpanel .content1, .rightpanel .simage {
+    transform: translateX(800px);
+}
+
+
+------ */
+
+
+/* ----------- FORM  Animation---------
+
+.containerform.sign-up-mode::before {
+    transform: translate(100%, -50%);
+    right: 52%;
+}
+
+----- */
+
+
+
+/* ----------- account page------------ */
+
+
+.account-page {
+    padding: 50px 0;
+    background: linear-gradient(#f7ce38, #ff523b);
+}
+
+
+.formcontainer {
+   
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 5px;
+    scroll-behavior: smooth;
+    
+    
+}
+
+
+
+.formcontainer span {
+
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn {
+    display: inline-block;
+}
+
+
+.formcontainer form {
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 80px;
+    transition: 1s;
+}
+
+.signin-form input {
+    margin: auto;
+    left: 200px;
+}
+
+form input {
+width: 100%;
+height: 30px;
+margin: 10px 0;
+padding: 0 10px;
+border: 1px solid #ccc;
+
+}
+
+
+form .btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+
+.btnsolid {
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #f7ce38;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btnsolid:focus {
+    outline: none;
+}
+
+
+#loginform {
+    left: -270px;
+    padding: 20px;
+
+}
+
+#loginform .input-fields {
+    padding: 10px;
+}
+
+#regform {
+    left: 0;
+}
+
+form  a {
+    font-size: 12px;
+}
+
+#indicator {
+    width: 100px;
+    border: none;
+    background: #f7ce38;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: 1s;
+}
+
+/* ----------- media query for mobile 600------------ */
+
+@media only screen and (max-width: 600px) {
+
+   
+    .row {
+        text-align: center;
+        
+    }
+
+
+     h1 {
+        width: 98%;
+     }
+
+   
+.col-2, 
+.col-3,
+.col-4 {
+
+    flex-basis: 100%;
+
+}
+    
+
+.button {
+    background-color: #f7ce38;
+}
+
+.button:hover {
+    background-color: #ff523b;
+}
+
+.tutor-profile select {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container1 {
+    display: flex;
+    width: 95%;
+    height: 100vh;
+    display: none;
+}
+
+.loginlink {
+
+    width: 50%;
+    font-size: 60%;
+    margin: auto;
+}
+
+.signupcontainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    
+}
+
+.side-big-heading {
+    width: 50%;
+}
+
+.bigheading {
+    width: 20%;
+    margin: auto;
+    top: 500px;
+}
+
+.stage {
+    width: 50%;
+}
+
+.stagemo {
+    display: none;
+}
+
+}
